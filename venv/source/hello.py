@@ -13,7 +13,6 @@ print('Cirq results:')
 cirq_simulator = cirq.Simulator()
 cirq_results = cirq_simulator.simulate(circuit)
 print(cirq_results)
-print()
 
 # Simulate the circuit with qsim and return the full state vector.
 print('qsim results:')
